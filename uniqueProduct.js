@@ -123,7 +123,7 @@ function checkAndUpdate(arr, product) {
 
 function getUniquePrducts(listOfProducts) {
 
-    let OutputArr = new Array;
+    let OutputArr = new Array(0);
    
     for (let i = 0; i < listOfProducts.length; i++) {
 
